@@ -1,4 +1,4 @@
-package Test;
+package JavaBasic_Program;
 
 public class Hello {
 
