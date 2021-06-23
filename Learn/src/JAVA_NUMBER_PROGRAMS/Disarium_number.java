@@ -14,17 +14,17 @@ public class Disarium_number {
 		int length = 0;
 		long d = 1;
 		while (d <= a) {
-		    length++;
-		    d *= 10;
+			length++;
+			d *= 10;
 		}
 		System.out.println(length);
-		double e=0;
-		for(int i=length-1;i>=0;i--) {
-			e=a%10;
-			sum=sum+Math.pow(e,i+1);
-			a=a/10;
+		double e = 0;
+		for (int i = length - 1; i >= 0; i--) {
+			e = a % 10;
+			sum = sum + Math.pow(e, i + 1);
+			a = a / 10;
 		}
-		
+
 		if (sum == temp) {
 			System.out.println("The number is a Disarium number");
 		} else {
