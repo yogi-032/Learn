@@ -10,7 +10,6 @@ public class Duplicate_Characterin_String {
 		String s = sc.nextLine();
 		int a = s.length();
 		char A[] = new char[a];
-		
 		for (int i = 0; i < a; i++) {
 			boolean flag = true;
 			char b = s.charAt(i);
