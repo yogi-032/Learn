@@ -2,7 +2,6 @@ package Array_Programs;
 
 import java.util.Scanner;
 import java.util.Arrays;
-
 public class second_largest_number_in_array {
 
 	public static void main(String[] args) {
@@ -16,10 +15,7 @@ public class second_largest_number_in_array {
 		}
 		Arrays.sort(A);
 		System.out.println(A[a-2]);
-		
 			}
-		
-
 	}
 
 
